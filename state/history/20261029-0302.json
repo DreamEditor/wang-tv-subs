@@ -1,0 +1,688 @@
+{
+ "version": "v20261029-0302",
+ "checked_at": "2026-10-29T03:02:46+08:00",
+ "checked_at_utc": "2026-10-28T19:02:46+00:00",
+ "repo": "DreamEditor/wang-tv-subs",
+ "counts": {
+  "channels": 60,
+  "lines": 82,
+  "sites": 9,
+  "channels_ok": 0,
+  "channels_switched": 0,
+  "channels_degraded_or_down": 0,
+  "channels_unverified_vantage": 0,
+  "sites_ok": 0,
+  "sites_checked": 10
+ },
+ "policy": {
+  "segment_min_bytes": 20480,
+  "segments_checked": 2,
+  "max_fails_before_switch": 2,
+  "min_sites": 5,
+  "min_channels": 30
+ },
+ "rollback": false,
+ "warnings": [
+  "probes skipped (--generate-only)",
+  "demoted sites: bfzy"
+ ],
+ "live": [
+  {
+   "name": "CCTV-1",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv1hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-2",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv2hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-3",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv3hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-4",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv4_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-5",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv5hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-6",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv6hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-7",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv7hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-8",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv8hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-9",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv9hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-10",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv10hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-11",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv11hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-12",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv12hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-13",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv13hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-14",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctvsehd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-15",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv15hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-16",
+   "group": "央视",
+   "url": "http://gmxw.7766.org:808/hls/169/index.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "CCTV-17",
+   "group": "央视",
+   "url": "http://cg01.hrtn.net:8070/live/cctv17hd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "湖南卫视",
+   "group": "卫视",
+   "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "浙江卫视",
+   "group": "卫视",
+   "url": "http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "江苏卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/jshd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "东方卫视",
+   "group": "卫视",
+   "url": "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "北京卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/bjhd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "广东卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/gdhd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "深圳卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/szhd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "安徽卫视",
+   "group": "卫视",
+   "url": "http://gmxw.7766.org:808/hls/40/index.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "山东卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/sdhd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "天津卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/tjhd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "四川卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/scws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "重庆卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/cqws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "湖北卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/hbhd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "河南卫视",
+   "group": "卫视",
+   "url": "http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "河北卫视",
+   "group": "卫视",
+   "url": "https://event.pull.hebtv.com/live/live101.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "山西卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/sxws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "辽宁卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/lnws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "吉林卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/jlws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "黑龙江卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/hljhd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "江西卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/jxws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "东南卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/dnws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "广西卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/gxws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "云南卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/ynws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "贵州卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/gzws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "甘肃卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/gsws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "青海卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/qhws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "宁夏卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/nxws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "新疆卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/xjws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "内蒙古卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/nmgws_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "西藏卫视",
+   "group": "卫视",
+   "url": "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "海南卫视",
+   "group": "卫视",
+   "url": "http://cg01.hrtn.net:8070/live/hnhd_264.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【美国】ABC News Live",
+   "group": "美国电视",
+   "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+   "status": "skipped",
+   "fails": 99,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【美国】CBS News 24/7",
+   "group": "美国电视",
+   "url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【美国】NBC News NOW",
+   "group": "美国电视",
+   "url": "https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【美国】Bloomberg TV US",
+   "group": "美国电视",
+   "url": "https://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-2/Source-USTV-10000-1-slxdlg-BP-HD-4-86X4McEAF4SL_live.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【美国】FOX Weather",
+   "group": "美国电视",
+   "url": "https://247wlive.foxweather.com/stream/index.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【孟加拉国】Jamuna TV",
+   "group": "孟加拉电视",
+   "url": "https://stream.ottplus.live/live/jamuna_tv_abr/index.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【孟加拉国】Somoy TV",
+   "group": "孟加拉电视",
+   "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【孟加拉国】Channel 24 BD",
+   "group": "孟加拉电视",
+   "url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【美国】PBS KIDS",
+   "group": "英语儿童",
+   "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【美国】Toon Goggles",
+   "group": "英语儿童",
+   "url": "https://d1eg24xrsfr6kv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-b4b1bzxkt1uzo-prod/tg/tg/tg.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【美国】Kartoon Channel!",
+   "group": "英语儿童",
+   "url": "https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【英国】Tiny Pop",
+   "group": "英语儿童",
+   "url": "https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  },
+  {
+   "name": "【英国】POP (UK)",
+   "group": "英语儿童",
+   "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-lggb/playlist.m3u8",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "segments": []
+  }
+ ],
+ "sites": [
+  {
+   "key": "duoduo",
+   "name": "魔都资源",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "360",
+   "name": "360资源",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "baidu",
+   "name": "百度资源",
+   "status": "skipped",
+   "fails": 1,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "zuid",
+   "name": "最大资源",
+   "status": "skipped",
+   "fails": 1,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "wujin",
+   "name": "无尽资源",
+   "status": "skipped",
+   "fails": 1,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "maoyan",
+   "name": "猫眼资源",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "piaoling",
+   "name": "飘零资源",
+   "status": "skipped",
+   "fails": 1,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "bfzy",
+   "name": "暴风资源",
+   "status": "skipped",
+   "fails": 4,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "liangzi",
+   "name": "量子资源",
+   "status": "skipped",
+   "fails": 1,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  },
+  {
+   "key": "ddys",
+   "name": "低端影视",
+   "status": "skipped",
+   "fails": 0,
+   "error": null,
+   "ms": 0,
+   "note": ""
+  }
+ ],
+ "pages": {
+  "url_base": "https://dreameditor.github.io/wang-tv-subs",
+  "match": true,
+  "attempts": 1,
+  "m3u": {
+   "http": "200",
+   "remote_sha256": "5a24642c6b0e465d83bcd169b238e45eb2b6523553d2e37d275ee40104d43927",
+   "local_sha256": "5a24642c6b0e465d83bcd169b238e45eb2b6523553d2e37d275ee40104d43927"
+  },
+  "tvbox": {
+   "http": "200",
+   "remote_sha256": "c94c44f56bfc7288c810fdd4e1c98b2f61b585370197b3c81e6932eabbb16b5f",
+   "local_sha256": "c94c44f56bfc7288c810fdd4e1c98b2f61b585370197b3c81e6932eabbb16b5f"
+  },
+  "checked_at": "2026-10-28T16:53:31+00:00"
+ }
+}

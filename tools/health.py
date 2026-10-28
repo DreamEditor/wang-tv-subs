@@ -428,6 +428,10 @@ def ensure_dir(path):
 
 def live_urls_for(channel):
     """Publish the best line first, then untried / previously good fallbacks."""
+    # A channel marked unavailable is kept in sources as documentation but published nowhere:
+    # marking it beats shipping a line that is known to fail on every player.
+    if channel.get("status") == "unavailable":
+        return []
     cands = channel.get("candidates") or []
     active = cands[0]
     out = [active["url"]]

@@ -684,17 +684,21 @@
    {
     "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
     "prio": 1,
-    "fails": 0,
-    "last_ok": null
+    "fails": 99,
+    "last_ok": null,
+    "note": "子清单 404/403，暂不可用"
    },
    {
     "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8",
     "prio": 2,
-    "fails": 0,
-    "last_ok": null
+    "fails": 99,
+    "last_ok": null,
+    "note": "子清单 404/403，暂不可用"
    }
   ],
-  "country": "美国"
+  "country": "美国",
+  "status": "unavailable",
+  "unavailable_reason": "abcnews-streams.akamaized.net 的 master.m3u8 仍返回 200，但它列出的所有子清单（master_400/800/1200/2500/4000，含 -b 镜像）直连与代理均为 404/403；电视端 ExoPlayer 报 InvalidResponseCodeException 404。属源站 token 化，2026-10-29 无可用官方直连线路。"
  },
  {
   "name": "【美国】CBS News 24/7",
@@ -727,10 +731,18 @@
   "group": "美国电视",
   "candidates": [
    {
-    "url": "https://bloomberg.com/media-manifest/streams/us.m3u8",
+    "url": "https://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-2/Source-USTV-10000-1-slxdlg-BP-HD-4-86X4McEAF4SL_live.m3u8",
     "prio": 1,
     "fails": 0,
-    "last_ok": null
+    "last_ok": null,
+    "note": "官方 akamai 变体 720p H.264+AAC；bloomberg.com 主清单在国内被 DNS 污染，改直连 CDN 变体"
+   },
+   {
+    "url": "https://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-2/Source-USTV-10000-1-slxdlg-BP-HD-5-gL7znhDRHxT3_live.m3u8",
+    "prio": 2,
+    "fails": 0,
+    "last_ok": null,
+    "note": "官方 akamai 变体 540p，作备用低码率"
    }
   ],
   "country": "美国"
