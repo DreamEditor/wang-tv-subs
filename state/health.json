@@ -1214,14 +1214,14 @@
   "attempts": 1,
   "m3u": {
    "http": "200",
-   "remote_sha256": "5a24642c6b0e465d83bcd169b238e45eb2b6523553d2e37d275ee40104d43927",
-   "local_sha256": "5a24642c6b0e465d83bcd169b238e45eb2b6523553d2e37d275ee40104d43927"
+   "remote_sha256": "850d35dae4397a9be985d2b2a70fecfe763fd9e06450856db291b86ac2fe4eee",
+   "local_sha256": "850d35dae4397a9be985d2b2a70fecfe763fd9e06450856db291b86ac2fe4eee"
   },
   "tvbox": {
    "http": "200",
    "remote_sha256": "c94c44f56bfc7288c810fdd4e1c98b2f61b585370197b3c81e6932eabbb16b5f",
    "local_sha256": "c94c44f56bfc7288c810fdd4e1c98b2f61b585370197b3c81e6932eabbb16b5f"
   },
-  "checked_at": "2026-10-28T16:53:31+00:00"
+  "checked_at": "2026-10-28T22:09:50+00:00"
  }
 }
