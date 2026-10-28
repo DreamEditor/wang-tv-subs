@@ -678,7 +678,7 @@
   ]
  },
  {
-  "name": "ABC News Live",
+  "name": "【美国】ABC News Live",
   "group": "美国电视",
   "candidates": [
    {
@@ -693,10 +693,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "美国"
  },
  {
-  "name": "CBS News 24/7",
+  "name": "【美国】CBS News 24/7",
   "group": "美国电视",
   "candidates": [
    {
@@ -705,10 +706,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "美国"
  },
  {
-  "name": "NBC News NOW",
+  "name": "【美国】NBC News NOW",
   "group": "美国电视",
   "candidates": [
    {
@@ -717,10 +719,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "美国"
  },
  {
-  "name": "Bloomberg TV US",
+  "name": "【美国】Bloomberg TV US",
   "group": "美国电视",
   "candidates": [
    {
@@ -729,10 +732,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "美国"
  },
  {
-  "name": "FOX Weather",
+  "name": "【美国】FOX Weather",
   "group": "美国电视",
   "candidates": [
    {
@@ -741,10 +745,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "美国"
  },
  {
-  "name": "Jamuna TV",
+  "name": "【孟加拉国】Jamuna TV",
   "group": "孟加拉电视",
   "candidates": [
    {
@@ -759,10 +764,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "孟加拉国"
  },
  {
-  "name": "Somoy TV",
+  "name": "【孟加拉国】Somoy TV",
   "group": "孟加拉电视",
   "candidates": [
    {
@@ -777,10 +783,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "孟加拉国"
  },
  {
-  "name": "Channel 24 BD",
+  "name": "【孟加拉国】Channel 24 BD",
   "group": "孟加拉电视",
   "candidates": [
    {
@@ -795,10 +802,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "孟加拉国"
  },
  {
-  "name": "PBS KIDS",
+  "name": "【美国】PBS KIDS",
   "group": "英语儿童",
   "candidates": [
    {
@@ -813,10 +821,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "美国"
  },
  {
-  "name": "Toon Goggles",
+  "name": "【美国】Toon Goggles",
   "group": "英语儿童",
   "candidates": [
    {
@@ -831,10 +840,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "美国"
  },
  {
-  "name": "Kartoon Channel!",
+  "name": "【美国】Kartoon Channel!",
   "group": "英语儿童",
   "candidates": [
    {
@@ -843,10 +853,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "美国"
  },
  {
-  "name": "Tiny Pop",
+  "name": "【英国】Tiny Pop",
   "group": "英语儿童",
   "candidates": [
    {
@@ -861,10 +872,11 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "英国"
  },
  {
-  "name": "POP (UK)",
+  "name": "【英国】POP (UK)",
   "group": "英语儿童",
   "candidates": [
    {
@@ -879,6 +891,7 @@
     "fails": 0,
     "last_ok": null
    }
-  ]
+  ],
+  "country": "英国"
  }
 ]
