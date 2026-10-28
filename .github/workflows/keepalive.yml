@@ -1,0 +1,35 @@
+name: keep-alive
+
+# GitHub disables scheduled workflows after 60 days without repository activity.
+# This monthly commit keeps the cron in health.yml armed.
+
+on:
+  schedule:
+    - cron: '17 3 1 * *'       # 01:17 UTC on the 1st of every month (fixed monthly tick)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: subs-keepalive
+  cancel-in-progress: false
+
+jobs:
+  touch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Commit a timestamp so the repo stays active
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p state
+          date -u +'%Y-%m-%dT%H:%M:%SZ' > state/keepalive.txt
+          git add state/keepalive.txt
+          git commit -m "chore: keep-alive $(date -u +%Y-%m-%d)" || echo "no change"
+          git push origin HEAD:"${GITHUB_REF_NAME}"

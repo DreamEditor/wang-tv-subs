@@ -1,0 +1,151 @@
+name: health
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'      # every 6 hours (UTC)
+  workflow_dispatch:
+    inputs:
+      no_probe:
+        description: 'skip network probes (regenerate only)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: subs-health
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Probe, failover, regenerate
+        id: gen
+        env:
+          NO_PROBE: ${{ inputs.no_probe }}
+        run: |
+          set -euo pipefail
+          python -m py_compile tools/health.py
+          if [ "${NO_PROBE}" = "true" ]; then
+            python tools/health.py --generate-only
+          else
+            python tools/health.py --timeout 15 --workers 10
+          fi
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          h = json.load(open("state/health.json", encoding="utf-8"))
+          c = h["counts"]
+          print("version=%s" % h["version"])
+          print("msg=subs: %s (%dch/%dline, %d sites)" % (
+              h["version"], c["channels"], c["lines"], c["sites"]))
+          PY
+
+      - name: Commit and push when content changed
+        id: push
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "nothing to commit"
+          else
+            git commit -m "${{ steps.gen.outputs.msg }}"
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "committed: ${{ steps.gen.outputs.msg }}"
+          fi
+
+      - name: Verify live Pages content (sha256)
+        id: verify
+        env:
+          UA: 'Mozilla/5.0 (Linux; Android 11; TV)'
+          BASE: 'https://dreameditor.github.io/wang-tv-subs'
+        run: |
+          set -uo pipefail
+          loc_m3u=$(sha256sum live.m3u | cut -d' ' -f1)
+          loc_json=$(sha256sum tvbox.json | cut -d' ' -f1)
+          ok=0; tries=0; code_m3u=""; code_json=""; r_m3u=""; r_json=""
+          for i in $(seq 1 15); do
+            tries=$i
+            sleep 20
+            code_m3u=$(curl -sL --max-time 30 -o /tmp/r.m3u -w '%{http_code}' -A "$UA" "$BASE/live.m3u?cb=$GITHUB_RUN_ID-$i" || true)
+            code_json=$(curl -sL --max-time 30 -o /tmp/r.json -w '%{http_code}' -A "$UA" "$BASE/tvbox.json?cb=$GITHUB_RUN_ID-$i" || true)
+            r_m3u=$(sha256sum /tmp/r.m3u 2>/dev/null | cut -d' ' -f1)
+            r_json=$(sha256sum /tmp/r.json 2>/dev/null | cut -d' ' -f1)
+            echo "attempt $i: m3u=$code_m3u ${r_m3u:0:12} / json=$code_json ${r_json:0:12}"
+            if [ "$code_m3u" = "200" ] && [ "$r_m3u" = "$loc_m3u" ] \
+               && [ "$code_json" = "200" ] && [ "$r_json" = "$loc_json" ]; then
+              ok=1; break
+            fi
+          done
+          {
+            echo "PAGES_CTRL_BASE=$BASE"
+            echo "PAGES_CTRL_OK=$ok"
+            echo "PAGES_CTRL_TRIES=$tries"
+            echo "PAGES_CTRL_CODE_M3U=$code_m3u"
+            echo "PAGES_CTRL_CODE_JSON=$code_json"
+            echo "PAGES_CTRL_SHA_M3U=$r_m3u"
+            echo "PAGES_CTRL_SHA_JSON=$r_json"
+            echo "PAGES_CTRL_LOCAL_M3U=$loc_m3u"
+            echo "PAGES_CTRL_LOCAL_JSON=$loc_json"
+          } > /tmp/pages.env
+          cat /tmp/pages.env >> "$GITHUB_STEP_SUMMARY"
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          e = dict(l.split("=", 1) for l in open("/tmp/pages.env", encoding="utf-8").read().splitlines() if "=" in l)
+          p = "state/health.json"
+          h = json.load(open(p, encoding="utf-8"))
+          h["pages"] = {
+              "url_base": e.get("PAGES_CTRL_BASE"),
+              "match": e.get("PAGES_CTRL_OK") == "1",
+              "attempts": int(e.get("PAGES_CTRL_TRIES") or 0),
+              "m3u": {"http": e.get("PAGES_CTRL_CODE_M3U"), "remote_sha256": e.get("PAGES_CTRL_SHA_M3U"),
+                      "local_sha256": e.get("PAGES_CTRL_LOCAL_M3U")},
+              "tvbox": {"http": e.get("PAGES_CTRL_CODE_JSON"), "remote_sha256": e.get("PAGES_CTRL_SHA_JSON"),
+                        "local_sha256": e.get("PAGES_CTRL_LOCAL_JSON")},
+              "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+          }
+          json.dump(h, open(p, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
+          print("pages match:", h["pages"]["match"])
+          PY
+
+      - name: Persist Pages verification into state
+        if: always()
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/health.json
+          if git diff --cached --quiet; then
+            echo "state unchanged"
+          else
+            git commit -m "state: pages verify ${{ steps.gen.outputs.version }}"
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo ""
+            echo "### published"
+            echo "- https://dreameditor.github.io/wang-tv-subs/live.m3u"
+            echo "- https://dreameditor.github.io/wang-tv-subs/tvbox.json"
+            echo "- change committed: ${{ steps.push.outputs.changed }}"
+          } >> "$GITHUB_STEP_SUMMARY"

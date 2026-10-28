@@ -1,0 +1,92 @@
+[
+ {
+  "key": "duoduo",
+  "name": "魔都资源",
+  "api": "https://www.mdzyapi.com/api.php/provide/vod",
+  "type": 1,
+  "prio": 1,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ },
+ {
+  "key": "360",
+  "name": "360资源",
+  "api": "https://360zy.com/api.php/provide/vod",
+  "type": 1,
+  "prio": 2,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ },
+ {
+  "key": "baidu",
+  "name": "百度资源",
+  "api": "https://api.apibdzy.com/api.php/provide/vod",
+  "type": 1,
+  "prio": 3,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ },
+ {
+  "key": "zuid",
+  "name": "最大资源",
+  "api": "https://api.zuidapi.com/api.php/provide/vod",
+  "type": 1,
+  "prio": 4,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ },
+ {
+  "key": "wujin",
+  "name": "无尽资源",
+  "api": "https://api.wujinapi.com/api.php/provide/vod",
+  "type": 1,
+  "prio": 5,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ },
+ {
+  "key": "maoyan",
+  "name": "猫眼资源",
+  "api": "https://api.maoyanapi.top/api.php/provide/vod",
+  "type": 1,
+  "prio": 6,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ },
+ {
+  "key": "piaoling",
+  "name": "飘零资源",
+  "api": "https://p2100.net/api.php/provide/vod",
+  "type": 1,
+  "prio": 7,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ },
+ {
+  "key": "bfzy",
+  "name": "暴风资源",
+  "api": "https://bfzyapi.com/api.php/provide/vod",
+  "type": 1,
+  "prio": 8,
+  "fails": 2,
+  "last_ok": null
+ },
+ {
+  "key": "liangzi",
+  "name": "量子资源",
+  "api": "https://cj.lziapi.com/api.php/provide/vod",
+  "type": 1,
+  "prio": 9,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ },
+ {
+  "key": "ddys",
+  "name": "低端影视",
+  "api": "https://zoe.im/tvbox/sites/ddys/spider.js",
+  "type": 3,
+  "prio": 10,
+  "fails": 0,
+  "last_ok": "2026-10-29T00:47:12+08:00"
+ }
+]

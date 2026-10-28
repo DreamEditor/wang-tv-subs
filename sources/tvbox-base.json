@@ -1,0 +1,43 @@
+{
+ "_meta": {
+  "repo": "wang-tv/local",
+  "generated": true
+ },
+ "spider": "",
+ "wallpaper": "https://picsum.photos/1920/1080",
+ "parses": [
+  {
+   "name": "Web",
+   "type": 3,
+   "url": "Web"
+  }
+ ],
+ "lives": [
+  {
+   "name": "央视卫视(vbskycn)",
+   "type": 0,
+   "url": "https://zoe.im/tvbox/shared/lives/vbskycn-iptv4.m3u"
+  },
+  {
+   "name": "IPTV综合",
+   "type": 0,
+   "url": "https://zoe.im/tvbox/shared/lives/IPTV.m3u"
+  }
+ ],
+ "flags": [
+  "youku",
+  "qq",
+  "iqiyi",
+  "qiyi",
+  "letv",
+  "sohu",
+  "tudou",
+  "pptv",
+  "mgtv",
+  "wasu",
+  "bilibili",
+  "renrenmi"
+ ],
+ "ijk": [],
+ "ads": []
+}

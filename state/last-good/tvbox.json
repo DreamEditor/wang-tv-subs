@@ -1,0 +1,126 @@
+{
+ "_meta": {
+  "repo": "wang-tv/local",
+  "generated": true
+ },
+ "spider": "",
+ "wallpaper": "https://picsum.photos/1920/1080",
+ "parses": [
+  {
+   "name": "Web",
+   "type": 3,
+   "url": "Web"
+  }
+ ],
+ "lives": [
+  {
+   "name": "央视卫视(vbskycn)",
+   "type": 0,
+   "url": "https://zoe.im/tvbox/shared/lives/vbskycn-iptv4.m3u"
+  },
+  {
+   "name": "IPTV综合",
+   "type": 0,
+   "url": "https://zoe.im/tvbox/shared/lives/IPTV.m3u"
+  }
+ ],
+ "flags": [
+  "youku",
+  "qq",
+  "iqiyi",
+  "qiyi",
+  "letv",
+  "sohu",
+  "tudou",
+  "pptv",
+  "mgtv",
+  "wasu",
+  "bilibili",
+  "renrenmi"
+ ],
+ "ijk": [],
+ "ads": [],
+ "sites": [
+  {
+   "key": "duoduo",
+   "name": "魔都资源",
+   "type": 1,
+   "api": "https://www.mdzyapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "360",
+   "name": "360资源",
+   "type": 1,
+   "api": "https://360zy.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "baidu",
+   "name": "百度资源",
+   "type": 1,
+   "api": "https://api.apibdzy.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "zuid",
+   "name": "最大资源",
+   "type": 1,
+   "api": "https://api.zuidapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "wujin",
+   "name": "无尽资源",
+   "type": 1,
+   "api": "https://api.wujinapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "maoyan",
+   "name": "猫眼资源",
+   "type": 1,
+   "api": "https://api.maoyanapi.top/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "piaoling",
+   "name": "飘零资源",
+   "type": 1,
+   "api": "https://p2100.net/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "liangzi",
+   "name": "量子资源",
+   "type": 1,
+   "api": "https://cj.lziapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "ddys",
+   "name": "低端影视",
+   "type": 3,
+   "api": "https://zoe.im/tvbox/sites/ddys/spider.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0
+  }
+ ]
+}
