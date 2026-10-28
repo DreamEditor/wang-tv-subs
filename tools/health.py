@@ -236,10 +236,17 @@ def probe_live(url, timeout=15):
 
     pl = http_get(url, timeout=timeout, max_bytes=512 * 1024)
     if pl["error"]:
+        res["observed"] = pl["error"]
         if pl.get("private_hop"):
             # gateway answered 302 into a private ISP address: only reachable from
             # inside that ISP, so a cloud runner cannot judge this line at all.
             res.update(error="vantage:private-redirect", unverified=True,
+                       ms=int((time.time() - started) * 1000))
+            return res
+        if pl["error"] == "dns":
+            # ISP-bound hostname that the runner's resolver cannot even resolve:
+            # a vantage artefact, not evidence that the line is dead.
+            res.update(error="vantage:dns-unresolvable", unverified=True,
                        ms=int((time.time() - started) * 1000))
             return res
         res.update(error="playlist:" + pl["error"], ms=int((time.time() - started) * 1000))
@@ -608,15 +615,22 @@ def main():
 
     # ---------------- decide published site list
     healthy = [s for s in sites if int(s.get("fails", 0)) < MAX_FAILS_BEFORE_SWITCH]
-    if len(healthy) >= MIN_SITES:
-        published_sites = healthy
-        dropped = [s["key"] for s in sites if s not in healthy]
+    published_sites = healthy if len(healthy) >= MIN_SITES else None
+    dropped = [s["key"] for s in sites if s not in healthy]
+    if published_sites:
         if dropped:
             warnings.append("demoted sites: " + ", ".join(dropped))
     else:
-        published_sites = sites
-        warnings.append("only %d healthy site(s) < %d -> publishing original list unchanged"
-                        % (len(healthy), MIN_SITES))
+        prev = load_json(os.path.join(lastgood, "tvbox.json"), {}) or {}
+        prev_sites = prev.get("sites") or []
+        if len(prev_sites) >= MIN_SITES:
+            published_sites = [s for s in sites if s["key"] in {p.get("key") for p in prev_sites}]
+            warnings.append("only %d healthy site(s) < %d -> keeping previous published list (%d sites)"
+                            % (len(healthy), MIN_SITES, len(published_sites)))
+        else:
+            published_sites = sites
+            warnings.append("only %d healthy site(s) < %d -> publishing original list unchanged"
+                            % (len(healthy), MIN_SITES))
 
     # ---------------- generate + self-check + rollback
     m3u_text = build_live_m3u(channels)
@@ -655,8 +669,7 @@ def main():
         warnings.append("%d channel(s) only reachable from a specific ISP network; "
                         "left untouched (not judged from this vantage point)" % live_unv)
 
-    health = {
-        "version": version,
+    health = {        "version": version,
         "checked_at": ts.isoformat(timespec="seconds"),
         "checked_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "repo": "DreamEditor/wang-tv-subs",
