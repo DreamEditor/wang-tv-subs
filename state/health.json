@@ -1,17 +1,17 @@
 {
- "version": "v20261029-0047",
- "checked_at": "2026-10-29T00:47:12+08:00",
- "checked_at_utc": "2026-10-28T16:47:41+00:00",
+ "version": "v20261029-0049",
+ "checked_at": "2026-10-29T00:49:21+08:00",
+ "checked_at_utc": "2026-10-28T16:51:32+00:00",
  "repo": "DreamEditor/wang-tv-subs",
  "counts": {
   "channels": 48,
   "lines": 62,
   "sites": 9,
-  "channels_ok": 48,
+  "channels_ok": 8,
   "channels_switched": 0,
-  "channels_degraded_or_down": 0,
+  "channels_degraded_or_down": 40,
   "channels_unverified_vantage": 0,
-  "sites_ok": 9,
+  "sites_ok": 4,
   "sites_checked": 10
  },
  "policy": {
@@ -31,420 +31,195 @@
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv1hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.173:10717/live/avit/cctv1hd/264/20261029/20261029_004655.ts?innersid=7010487074698393504",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.173:10717/live/avit/cctv1hd/264/20261029/20261029_004700.ts?innersid=7010487074698393504",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 467,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 535,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-2",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv2hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.170:10717/live/avit/cctv2hd/264/20261029/20261029_004650.ts?innersid=14011464098665291457",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.170:10717/live/avit/cctv2hd/264/20261029/20261029_004655.ts?innersid=14011464098665291457",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 755,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 536,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-3",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv3hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.170:10717/live/avit/cctv3hd/264/20261029/20261029_004655.ts?innersid=7323928863361307487",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.170:10717/live/avit/cctv3hd/264/20261029/20261029_004700.ts?innersid=7323928863361307487",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 918,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 536,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-4",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv4_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.167:10717/live/avit/cctv4/264/20261029/20261029_004655.ts?innersid=3133802762635734790",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.167:10717/live/avit/cctv4/264/20261029/20261029_004700.ts?innersid=3133802762635734790",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 913,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 536,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-5",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv5hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.165:10717/live/avit/cctv5hd/264/20261029/20261029_004655.ts?innersid=12853437271972640112",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.165:10717/live/avit/cctv5hd/264/20261029/20261029_004700.ts?innersid=12853437271972640112",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 706,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 537,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-6",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv6hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.167:10717/live/avit/cctv6hd/264/20261029/20261029_004655.ts?innersid=1064838808056893498",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.167:10717/live/avit/cctv6hd/264/20261029/20261029_004700.ts?innersid=1064838808056893498",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 886,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 536,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-7",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv7hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.170:10717/live/avit/cctv7hd/264/20261029/20261029_004650.ts?innersid=7432804738373736118",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.170:10717/live/avit/cctv7hd/264/20261029/20261029_004655.ts?innersid=7432804738373736118",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 737,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 535,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-8",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv8hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.170:10717/live/avit/cctv8hd/264/20261029/20261029_004655.ts?innersid=4983889407254581201",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.170:10717/live/avit/cctv8hd/264/20261029/20261029_004700.ts?innersid=4983889407254581201",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 908,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 536,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-9",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv9hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.167:10717/live/avit/cctv9hd/264/20261029/20261029_004655.ts?innersid=2390387393889106958",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.167:10717/live/avit/cctv9hd/264/20261029/20261029_004700.ts?innersid=2390387393889106958",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 902,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 538,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-10",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv10hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.174:10717/live/avit/cctv10hd/264/20261029/20261029_004655.ts?innersid=12815167140725247804",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.174:10717/live/avit/cctv10hd/264/20261029/20261029_004700.ts?innersid=12815167140725247804",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 975,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 537,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-11",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv11hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.161:10717/live/avit/cctv11hd/264/20261029/20261029_004655.ts?innersid=15618504420331471469",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.161:10717/live/avit/cctv11hd/264/20261029/20261029_004700.ts?innersid=15618504420331471469",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 731,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 281,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-12",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv12hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.161:10717/live/avit/cctv12hd/264/20261029/20261029_004655.ts?innersid=5036427517612448171",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.161:10717/live/avit/cctv12hd/264/20261029/20261029_004700.ts?innersid=5036427517612448171",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 910,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 280,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-13",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv13hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.173:10717/live/avit/cctv13hd/264/20261029/20261029_004655.ts?innersid=12721017738159800823",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.173:10717/live/avit/cctv13hd/264/20261029/20261029_004700.ts?innersid=12721017738159800823",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 898,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 280,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-14",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctvsehd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.165:10717/live/avit/cctvsehd/264/20261029/20261029_004655.ts?innersid=18211622640069898134",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.165:10717/live/avit/cctvsehd/264/20261029/20261029_004700.ts?innersid=18211622640069898134",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 994,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 282,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-15",
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv15hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.173:10717/live/avit/cctv15hd/264/20261029/20261029_004655.ts?innersid=1542785842977112663",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.173:10717/live/avit/cctv15hd/264/20261029/20261029_004700.ts?innersid=1542785842977112663",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1149,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 281,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "CCTV-16",
@@ -455,14 +230,14 @@
    "error": null,
    "segments": [
     {
-     "url": "http://gmxw.7766.org:808/hls/169/16281769380726.ts",
+     "url": "http://gmxw.7766.org:808/hls/169/16281899435757.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "http://gmxw.7766.org:808/hls/169/16281774428734.ts",
+     "url": "http://gmxw.7766.org:808/hls/169/16281904435959.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -470,7 +245,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 2930,
+   "ms": 8016,
    "tries": 1,
    "status": "ok"
   },
@@ -479,28 +254,13 @@
    "group": "央视",
    "url": "http://cg01.hrtn.net:8070/live/cctv17hd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.167:10717/live/avit/cctv17hd/264/20261029/20261029_004655.ts?innersid=2818939038986173656",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.167:10717/live/avit/cctv17hd/264/20261029/20261029_004700.ts?innersid=2818939038986173656",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1063,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 280,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "湖南卫视",
@@ -511,14 +271,14 @@
    "error": null,
    "segments": [
     {
-     "url": "U5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-6389803-1-hls.ts",
+     "url": "U5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-6389825-1-hls.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "U5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-6389804-1-hls.ts",
+     "url": "U5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-6389826-1-hls.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -526,7 +286,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 774,
+   "ms": 1362,
    "tries": 1,
    "status": "ok"
   },
@@ -554,7 +314,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 1048,
+   "ms": 3650,
    "tries": 1,
    "status": "ok"
   },
@@ -563,28 +323,13 @@
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/jshd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.167:10717/live/avit/jshd/264/20261029/20261029_004655.ts?innersid=14777378397992591905",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.167:10717/live/avit/jshd/264/20261029/20261029_004700.ts?innersid=14777378397992591905",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1179,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 279,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "东方卫视",
@@ -595,14 +340,14 @@
    "error": null,
    "segments": [
     {
-     "url": "esource-dfl.bestv.cn/material/6b920aedc3acb159165b20284279005a/2026/1024/video/23647d08f92c4878a881c4e13d6822f7-00447.ts",
+     "url": "esource-dfl.bestv.cn/material/6b920aedc3acb159165b20284279005a/2026/0728/video/a545a5b84cc74f56a98ef6f3368f6dba-00036.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "esource-dfl.bestv.cn/material/6b920aedc3acb159165b20284279005a/2026/1024/video/23647d08f92c4878a881c4e13d6822f7-00448.ts",
+     "url": "esource-dfl.bestv.cn/material/6b920aedc3acb159165b20284279005a/2026/0728/video/a545a5b84cc74f56a98ef6f3368f6dba-00037.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -610,8 +355,8 @@
     }
    ],
    "bytes": 131072,
-   "ms": 1206,
-   "tries": 1,
+   "ms": 4116,
+   "tries": 2,
    "status": "ok"
   },
   {
@@ -619,84 +364,39 @@
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/bjhd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.173:10717/live/avit/bjhd/264/20261029/20261029_004655.ts?innersid=6890126676807779766",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.173:10717/live/avit/bjhd/264/20261029/20261029_004700.ts?innersid=6890126676807779766",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1004,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 250,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "广东卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/gdhd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.165:10717/live/avit/gdhd/264/20261029/20261029_004655.ts?innersid=15703612749650398374",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.165:10717/live/avit/gdhd/264/20261029/20261029_004700.ts?innersid=15703612749650398374",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 990,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 249,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "深圳卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/szhd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.161:10717/live/avit/szhd/264/20261029/20261029_004655.ts?innersid=14908941829616273775",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.161:10717/live/avit/szhd/264/20261029/20261029_004700.ts?innersid=14908941829616273775",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 999,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 250,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "安徽卫视",
@@ -707,14 +407,14 @@
    "error": null,
    "segments": [
     {
-     "url": "http://gmxw.7766.org:808/hls/40/16281768338545.ts",
+     "url": "http://gmxw.7766.org:808/hls/40/16281898292859.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "http://gmxw.7766.org:808/hls/40/16281773361605.ts",
+     "url": "http://gmxw.7766.org:808/hls/40/16281903331607.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -722,7 +422,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 2428,
+   "ms": 12929,
    "tries": 1,
    "status": "ok"
   },
@@ -731,140 +431,65 @@
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/sdhd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.174:10717/live/avit/sdhd/264/20261029/20261029_004655.ts?innersid=7426959861582957099",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.174:10717/live/avit/sdhd/264/20261029/20261029_004700.ts?innersid=7426959861582957099",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1025,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 250,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "天津卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/tjhd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.174:10717/live/avit/tjhd/264/20261029/20261029_004655.ts?innersid=1929240103672544035",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.174:10717/live/avit/tjhd/264/20261029/20261029_004700.ts?innersid=1929240103672544035",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 828,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 250,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "四川卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/scws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.174:10717/live/avit/scws/264/20261029/20261029_004655.ts?innersid=3563444160676372060",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.174:10717/live/avit/scws/264/20261029/20261029_004700.ts?innersid=3563444160676372060",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1010,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 523,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "重庆卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/cqws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.174:10717/live/avit/cqws/264/20261029/20261029_004700.ts?innersid=2764268140335182651",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.174:10717/live/avit/cqws/264/20261029/20261029_004705.ts?innersid=2764268140335182651",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 994,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 522,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "湖北卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/hbhd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.167:10717/live/avit/hbhd/264/20261029/20261029_004700.ts?innersid=15745205992991999643",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.167:10717/live/avit/hbhd/264/20261029/20261029_004705.ts?innersid=15745205992991999643",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 919,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 523,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "河南卫视",
@@ -875,14 +500,14 @@
    "error": null,
    "segments": [
     {
-     "url": "http://111.59.139.82:11888/tsfile/live/live_139_1_27413383.ts?key=txiptv&key2=27413383",
+     "url": "http://111.59.139.82:11888/tsfile/live/live_139_1_27413408.ts?key=txiptv&key2=27413408",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "http://111.59.139.82:11888/tsfile/live/live_139_1_27413384.ts?key=txiptv&key2=27413384",
+     "url": "http://111.59.139.82:11888/tsfile/live/live_139_1_27413409.ts?key=txiptv&key2=27413409",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -890,7 +515,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 1115,
+   "ms": 2620,
    "tries": 1,
    "status": "ok"
   },
@@ -903,14 +528,14 @@
    "error": null,
    "segments": [
     {
-     "url": "https://event.pull.hebtv.com/live/live101-597683557.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
+     "url": "https://event.pull.hebtv.com/live/live101-597683592.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "https://event.pull.hebtv.com/live/live101-597683558.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
+     "url": "https://event.pull.hebtv.com/live/live101-597683593.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -918,7 +543,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 1545,
+   "ms": 5936,
    "tries": 1,
    "status": "ok"
   },
@@ -927,392 +552,182 @@
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/sxws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.167:10717/live/avit/sxws/264/20261029/20261029_004700.ts?innersid=11066968061109106896",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.167:10717/live/avit/sxws/264/20261029/20261029_004705.ts?innersid=11066968061109106896",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1100,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 282,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "辽宁卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/lnws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.165:10717/live/avit/lnws/264/20261029/20261029_004655.ts?innersid=14535393730619079036",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.165:10717/live/avit/lnws/264/20261029/20261029_004700.ts?innersid=14535393730619079036",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 975,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 246,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "吉林卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/jlws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.173:10717/live/avit/jlws/264/20261029/20261029_004700.ts?innersid=14219259327635559327",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.173:10717/live/avit/jlws/264/20261029/20261029_004705.ts?innersid=14219259327635559327",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1016,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 246,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "黑龙江卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/hljhd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.167:10717/live/avit/hljhd/264/20261029/20261029_004700.ts?innersid=2426489453985447817",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.167:10717/live/avit/hljhd/264/20261029/20261029_004705.ts?innersid=2426489453985447817",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1172,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 245,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "江西卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/jxws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.173:10717/live/avit/jxws/264/20261029/20261029_004700.ts?innersid=7924410012487817372",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.173:10717/live/avit/jxws/264/20261029/20261029_004705.ts?innersid=7924410012487817372",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1011,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 269,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "东南卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/dnws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.165:10717/live/avit/dnws/264/20261029/20261029_004700.ts?innersid=5946717975144340537",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.165:10717/live/avit/dnws/264/20261029/20261029_004705.ts?innersid=5946717975144340537",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 984,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 232,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "广西卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/gxws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.170:10717/live/avit/gxws/264/20261029/20261029_004700.ts?innersid=4281077484388032258",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.170:10717/live/avit/gxws/264/20261029/20261029_004705.ts?innersid=4281077484388032258",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1075,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 231,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "云南卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/ynws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.161:10717/live/avit/ynws/264/20261029/20261029_004700.ts?innersid=10231066925666597237",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.161:10717/live/avit/ynws/264/20261029/20261029_004705.ts?innersid=10231066925666597237",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1077,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 233,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "贵州卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/gzws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.161:10717/live/avit/gzws/264/20261029/20261029_004700.ts?innersid=13618175620184411434",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.161:10717/live/avit/gzws/264/20261029/20261029_004705.ts?innersid=13618175620184411434",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 782,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 13,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "甘肃卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/gsws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.174:10717/live/avit/gsws/264/20261029/20261029_004700.ts?innersid=13584886946248549558",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.174:10717/live/avit/gsws/264/20261029/20261029_004705.ts?innersid=13584886946248549558",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 887,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 5,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "青海卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/qhws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.174:10717/live/avit/qhws/264/20261029/20261029_004700.ts?innersid=12923622020834197160",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.174:10717/live/avit/qhws/264/20261029/20261029_004705.ts?innersid=12923622020834197160",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 873,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 5,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "宁夏卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/nxws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.170:10717/live/avit/nxws/264/20261029/20261029_004700.ts?innersid=18050257742295037026",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.170:10717/live/avit/nxws/264/20261029/20261029_004705.ts?innersid=18050257742295037026",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1006,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 6,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "新疆卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/xjws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.161:10717/live/avit/xjws/264/20261029/20261029_004700.ts?innersid=14001488525292716509",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.161:10717/live/avit/xjws/264/20261029/20261029_004705.ts?innersid=14001488525292716509",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1664,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 272,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "内蒙古卫视",
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/nmgws_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.166:10717/live/avit/nmgws/264/20261029/20261029_004655.ts?innersid=13350506888234020256",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.166:10717/live/avit/nmgws/264/20261029/20261029_004700.ts?innersid=13350506888234020256",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 738,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 530,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "西藏卫视",
@@ -1323,14 +738,14 @@
    "error": null,
    "segments": [
     {
-     "url": "http://112.27.5.218:9901/tsfile/live/live_111_1_19291949.ts?key=txiptv&key2=19291949",
+     "url": "http://112.27.5.218:9901/tsfile/live/live_111_1_19291975.ts?key=txiptv&key2=19291975",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "http://112.27.5.218:9901/tsfile/live/live_111_1_19291950.ts?key=txiptv&key2=19291950",
+     "url": "http://112.27.5.218:9901/tsfile/live/live_111_1_19291976.ts?key=txiptv&key2=19291976",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -1338,7 +753,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 968,
+   "ms": 2186,
    "tries": 1,
    "status": "ok"
   },
@@ -1347,28 +762,13 @@
    "group": "卫视",
    "url": "http://cg01.hrtn.net:8070/live/hnhd_264.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "http://172.19.29.174:10717/live/avit/hnhd/264/20261029/20261029_004700.ts?innersid=9611445685027460292",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "http://172.19.29.174:10717/live/avit/hnhd/264/20261029/20261029_004705.ts?innersid=9611445685027460292",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 1502,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:dns",
+   "segments": [],
+   "bytes": 0,
+   "ms": 530,
+   "tries": 2,
+   "status": "degraded"
   }
  ],
  "sites": [
@@ -1377,7 +777,7 @@
    "name": "魔都资源",
    "fails": 0,
    "error": null,
-   "ms": 5529,
+   "ms": 1902,
    "note": "list=3 media=m3u8",
    "tries": 1,
    "status": "ok"
@@ -1385,49 +785,49 @@
   {
    "key": "360",
    "name": "360资源",
-   "fails": 1,
+   "fails": 0,
    "error": null,
-   "ms": 7335,
+   "ms": 2029,
    "note": "list=3 media=m3u8",
-   "tries": 2,
+   "tries": 1,
    "status": "ok"
   },
   {
    "key": "baidu",
    "name": "百度资源",
-   "fails": 0,
-   "error": null,
-   "ms": 3628,
-   "note": "list=2 media=m3u8",
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "media:http-403",
+   "ms": 2551,
+   "note": "",
+   "tries": 2,
+   "status": "fail"
   },
   {
    "key": "zuid",
    "name": "最大资源",
-   "fails": 0,
-   "error": null,
-   "ms": 3916,
-   "note": "list=7 media=m3u8",
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "media:http-403",
+   "ms": 3564,
+   "note": "",
+   "tries": 2,
+   "status": "fail"
   },
   {
    "key": "wujin",
    "name": "无尽资源",
-   "fails": 0,
-   "error": null,
-   "ms": 5582,
-   "note": "list=9 media=m3u8",
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "media:http-403",
+   "ms": 1294,
+   "note": "",
+   "tries": 2,
+   "status": "fail"
   },
   {
    "key": "maoyan",
    "name": "猫眼资源",
    "fails": 0,
    "error": null,
-   "ms": 4710,
+   "ms": 1671,
    "note": "list=1 media=m3u8",
    "tries": 1,
    "status": "ok"
@@ -1435,19 +835,19 @@
   {
    "key": "piaoling",
    "name": "飘零资源",
-   "fails": 0,
-   "error": null,
-   "ms": 4412,
-   "note": "list=8 media=m3u8",
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "api:http-403",
+   "ms": 715,
+   "note": "",
+   "tries": 2,
+   "status": "fail"
   },
   {
    "key": "bfzy",
    "name": "暴风资源",
-   "fails": 2,
+   "fails": 3,
    "error": "media:http-404",
-   "ms": 2160,
+   "ms": 1180,
    "note": "",
    "tries": 2,
    "status": "demoted"
@@ -1455,19 +855,19 @@
   {
    "key": "liangzi",
    "name": "量子资源",
-   "fails": 0,
-   "error": null,
-   "ms": 3749,
-   "note": "list=20 media=other",
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "media:http-404",
+   "ms": 1297,
+   "note": "",
+   "tries": 2,
+   "status": "fail"
   },
   {
    "key": "ddys",
    "name": "低端影视",
    "fails": 0,
    "error": null,
-   "ms": 665,
+   "ms": 378,
    "note": "spider.js 9155B",
    "tries": 1,
    "status": "ok"
