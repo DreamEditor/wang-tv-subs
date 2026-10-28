@@ -1,4 +1,4 @@
-{
+﻿{
  "_meta": {
   "repo": "wang-tv/local",
   "generated": true
@@ -43,7 +43,7 @@
  "sites": [
   {
    "key": "duoduo",
-   "name": "魔都资源",
+   "name": "魔都资源·TEST",
    "type": 1,
    "api": "https://www.mdzyapi.com/api.php/provide/vod",
    "searchable": 1,
