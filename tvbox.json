@@ -43,7 +43,7 @@
  "sites": [
   {
    "key": "duoduo",
-   "name": "魔都资源·TEST",
+   "name": "魔都资源",
    "type": 1,
    "api": "https://www.mdzyapi.com/api.php/provide/vod",
    "searchable": 1,
