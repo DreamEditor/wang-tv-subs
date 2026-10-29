@@ -69,46 +69,10 @@
    "filterable": 1
   },
   {
-   "key": "zuid",
-   "name": "最大资源",
-   "type": 1,
-   "api": "https://api.zuidapi.com/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "wujin",
-   "name": "无尽资源",
-   "type": 1,
-   "api": "https://api.wujinapi.com/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "maoyan",
    "name": "猫眼资源",
    "type": 1,
    "api": "https://api.maoyanapi.top/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "piaoling",
-   "name": "飘零资源",
-   "type": 1,
-   "api": "https://p2100.net/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "liangzi",
-   "name": "量子资源",
-   "type": 1,
-   "api": "https://cj.lziapi.com/api.php/provide/vod",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
