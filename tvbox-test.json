@@ -1,0 +1,19 @@
+﻿{
+  "sites": [
+    {
+      "key": "md_f",
+      "name": "魔都资源(过滤)",
+      "type": 3,
+      "api": "https://dreameditor.github.io/wang-tv-subs/spider/cms-filter.js",
+      "ext": "https://www.mdzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    }
+  ],
+  "lives": [
+    { "name": "直播", "url": "https://dreameditor.github.io/wang-tv-subs/live.m3u" }
+  ],
+  "flags": ["youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu", "bilibili"],
+  "parses": []
+}
