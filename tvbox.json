@@ -42,44 +42,13 @@
   "ads": [],
   "sites": [
     {
-      "key": "duoduo_f",
-      "name": "魔都资源(过滤)",
-      "type": 3,
-      "api": "https://dreameditor.github.io/wang-tv-subs/spider/cms-filter.js",
+      "key": "piaoling",
+      "name": "飘零资源",
+      "type": 1,
+      "api": "https://p2100.net/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.mdzyapi.com/api.php/provide/vod"
-    },
-    {
-      "key": "360_f",
-      "name": "360资源(过滤)",
-      "type": 3,
-      "api": "https://dreameditor.github.io/wang-tv-subs/spider/cms-filter.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://360zy.com/api.php/provide/vod"
-    },
-    {
-      "key": "baidu_f",
-      "name": "百度资源(过滤)",
-      "type": 3,
-      "api": "https://dreameditor.github.io/wang-tv-subs/spider/cms-filter.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://api.apibdzy.com/api.php/provide/vod"
-    },
-    {
-      "key": "maoyan_f",
-      "name": "猫眼资源(过滤)",
-      "type": 3,
-      "api": "https://dreameditor.github.io/wang-tv-subs/spider/cms-filter.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://api.maoyanapi.top/api.php/provide/vod"
+      "filterable": 1
     },
     {
       "key": "ddys",
