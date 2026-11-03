@@ -1,0 +1,83 @@
+{
+ "spider": "",
+ "wallpaper": "https://picsum.photos/1920/1080",
+ "logo": "",
+ "sites": [
+  {
+   "key": "duoduo",
+   "name": "魔都资源",
+   "type": 1,
+   "api": "https://www.mdzyapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "360",
+   "name": "360资源",
+   "type": 1,
+   "api": "https://360zy.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "baidu",
+   "name": "百度资源",
+   "type": 1,
+   "api": "https://api.apibdzy.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "maoyan",
+   "name": "猫眼资源",
+   "type": 1,
+   "api": "https://api.maoyanapi.top/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "ddys",
+   "name": "低端影视",
+   "type": 3,
+   "api": "https://zoe.im/tvbox/sites/ddys/spider.js",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 0
+  }
+ ],
+ "lives": [
+  {
+   "name": "中国电视直播",
+   "type": 0,
+   "url": "https://dreameditor.github.io/wang-tv-subs/live.m3u",
+   "playerType": 1
+  }
+ ],
+ "parses": [
+  {
+   "name": "Web",
+   "type": 3,
+   "url": "Web"
+  }
+ ],
+ "flags": [
+  "youku",
+  "qq",
+  "iqiyi",
+  "qiyi",
+  "letv",
+  "sohu",
+  "tudou",
+  "pptv",
+  "mgtv",
+  "wasu",
+  "bilibili",
+  "renrenmi"
+ ],
+ "ijk": [],
+ "ads": []
+}
