@@ -60,19 +60,19 @@
    "filterable": 1
   },
   {
-   "key": "maoyan",
-   "name": "猫眼资源",
+   "key": "baidu",
+   "name": "百度资源",
    "type": 1,
-   "api": "https://api.maoyanapi.top/api.php/provide/vod",
+   "api": "https://api.apibdzy.com/api.php/provide/vod",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
   },
   {
-   "key": "liangzi",
-   "name": "量子资源",
+   "key": "maoyan",
+   "name": "猫眼资源",
    "type": 1,
-   "api": "https://cj.lziapi.com/api.php/provide/vod",
+   "api": "https://api.maoyanapi.top/api.php/provide/vod",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
