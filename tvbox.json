@@ -60,10 +60,19 @@
    "filterable": 1
   },
   {
-   "key": "baidu",
-   "name": "百度资源",
+   "key": "zuid",
+   "name": "最大资源",
    "type": 1,
-   "api": "https://api.apibdzy.com/api.php/provide/vod",
+   "api": "https://api.zuidapi.com/api.php/provide/vod",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "wujin",
+   "name": "无尽资源",
+   "type": 1,
+   "api": "https://api.wujinapi.com/api.php/provide/vod",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
