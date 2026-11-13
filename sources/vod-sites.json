@@ -6,7 +6,7 @@
   "type": 1,
   "prio": 1,
   "fails": 0,
-  "last_ok": "2026-11-13T21:44:54+08:00"
+  "last_ok": "2026-11-14T07:06:58+08:00"
  },
  {
   "key": "360",
@@ -15,7 +15,7 @@
   "type": 1,
   "prio": 2,
   "fails": 0,
-  "last_ok": "2026-11-13T21:44:54+08:00"
+  "last_ok": "2026-11-14T07:06:58+08:00"
  },
  {
   "key": "baidu",
@@ -23,8 +23,8 @@
   "api": "https://api.apibdzy.com/api.php/provide/vod",
   "type": 1,
   "prio": 3,
-  "fails": 1,
-  "last_ok": "2026-11-13T12:32:42+08:00"
+  "fails": 0,
+  "last_ok": "2026-11-14T07:06:58+08:00"
  },
  {
   "key": "zuid",
@@ -32,7 +32,7 @@
   "api": "https://api.zuidapi.com/api.php/provide/vod",
   "type": 1,
   "prio": 4,
-  "fails": 14,
+  "fails": 15,
   "last_ok": "2026-11-08T20:35:14+08:00"
  },
  {
@@ -41,7 +41,7 @@
   "api": "https://api.wujinapi.com/api.php/provide/vod",
   "type": 1,
   "prio": 5,
-  "fails": 14,
+  "fails": 15,
   "last_ok": "2026-11-08T20:35:14+08:00"
  },
  {
@@ -51,7 +51,7 @@
   "type": 1,
   "prio": 6,
   "fails": 0,
-  "last_ok": "2026-11-13T21:44:54+08:00"
+  "last_ok": "2026-11-14T07:06:58+08:00"
  },
  {
   "key": "piaoling",
@@ -59,7 +59,7 @@
   "api": "https://p2100.net/api.php/provide/vod",
   "type": 1,
   "prio": 7,
-  "fails": 49,
+  "fails": 50,
   "last_ok": "2026-10-29T00:47:12+08:00"
  },
  {
@@ -68,7 +68,7 @@
   "api": "https://bfzyapi.com/api.php/provide/vod",
   "type": 1,
   "prio": 8,
-  "fails": 52,
+  "fails": 53,
   "last_ok": null
  },
  {
@@ -77,8 +77,8 @@
   "api": "https://cj.lziapi.com/api.php/provide/vod",
   "type": 1,
   "prio": 9,
-  "fails": 1,
-  "last_ok": "2026-11-13T12:32:42+08:00"
+  "fails": 0,
+  "last_ok": "2026-11-14T07:06:58+08:00"
  },
  {
   "key": "ddys",
@@ -87,6 +87,6 @@
   "type": 3,
   "prio": 10,
   "fails": 0,
-  "last_ok": "2026-11-13T21:44:54+08:00"
+  "last_ok": "2026-11-14T07:06:58+08:00"
  }
 ]
