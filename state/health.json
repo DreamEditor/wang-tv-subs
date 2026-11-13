@@ -1181,7 +1181,7 @@
  "pages": {
   "url_base": "https://dreameditor.github.io/wang-tv-subs",
   "match": true,
-  "attempts": 1,
+  "attempts": 2,
   "m3u": {
    "http": "200",
    "remote_sha256": "850d35dae4397a9be985d2b2a70fecfe763fd9e06450856db291b86ac2fe4eee",
@@ -1189,9 +1189,9 @@
   },
   "tvbox": {
    "http": "200",
-   "remote_sha256": "c8af4a83c7deb370d40303a46c1689f6549e10468b8f1a5e8710a865e57c90ad",
-   "local_sha256": "c8af4a83c7deb370d40303a46c1689f6549e10468b8f1a5e8710a865e57c90ad"
+   "remote_sha256": "2fcca36b201df508305a9b6e653e07902dbe864e9c7f07c43f41d88e35f9e2bd",
+   "local_sha256": "2fcca36b201df508305a9b6e653e07902dbe864e9c7f07c43f41d88e35f9e2bd"
   },
-  "checked_at": "2026-11-12T23:05:00+00:00"
+  "checked_at": "2026-11-13T04:34:02+00:00"
  }
 }
