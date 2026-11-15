@@ -60,15 +60,6 @@
    "filterable": 1
   },
   {
-   "key": "baidu",
-   "name": "百度资源",
-   "type": 1,
-   "api": "https://api.apibdzy.com/api.php/provide/vod",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "maoyan",
    "name": "猫眼资源",
    "type": 1,
