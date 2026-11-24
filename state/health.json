@@ -1,17 +1,17 @@
 {
- "version": "v20261124-0102",
- "checked_at": "2026-11-24T01:02:18+08:00",
- "checked_at_utc": "2026-11-23T17:02:56+00:00",
+ "version": "v20261124-1141",
+ "checked_at": "2026-11-24T11:41:35+08:00",
+ "checked_at_utc": "2026-11-24T03:45:39+00:00",
  "repo": "DreamEditor/wang-tv-subs",
  "counts": {
   "channels": 60,
   "lines": 82,
   "sites": 6,
-  "channels_ok": 16,
+  "channels_ok": 15,
   "channels_switched": 0,
-  "channels_degraded_or_down": 5,
+  "channels_degraded_or_down": 6,
   "channels_unverified_vantage": 40,
-  "sites_ok": 3,
+  "sites_ok": 4,
   "sites_checked": 10
  },
  "policy": {
@@ -23,7 +23,7 @@
  },
  "rollback": false,
  "warnings": [
-  "only 3 healthy site(s) < 5 -> keeping previous published list (6 sites)",
+  "only 4 healthy site(s) < 5 -> keeping previous published list (6 sites)",
   "40 channel(s) only reachable from a specific ISP network; left untouched (not judged from this vantage point)"
  ],
  "live": [
@@ -36,7 +36,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 22,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -49,7 +49,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 23,
+   "ms": 3,
    "tries": 2,
    "status": "unverified"
   },
@@ -62,7 +62,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 24,
+   "ms": 3,
    "tries": 2,
    "status": "unverified"
   },
@@ -75,7 +75,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 24,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -88,7 +88,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 25,
+   "ms": 3,
    "tries": 2,
    "status": "unverified"
   },
@@ -101,7 +101,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 24,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -114,7 +114,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 22,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -127,7 +127,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 24,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -140,7 +140,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 24,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -153,7 +153,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 24,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -166,7 +166,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 262,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -179,7 +179,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 263,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -192,7 +192,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 262,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -205,7 +205,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 263,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -218,7 +218,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 263,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -231,14 +231,14 @@
    "error": null,
    "segments": [
     {
-     "url": "http://gmxw.7766.org:808/hls/169/18529075228525.ts",
+     "url": "http://gmxw.7766.org:808/hls/169/18567426838463.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "http://gmxw.7766.org:808/hls/169/18529080030167.ts",
+     "url": "http://gmxw.7766.org:808/hls/169/18567431816942.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -246,7 +246,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 9765,
+   "ms": 6592,
    "tries": 1,
    "status": "ok"
   },
@@ -259,7 +259,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 263,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -272,14 +272,14 @@
    "error": null,
    "segments": [
     {
-     "url": "U5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-6764350-1-hls.ts",
+     "url": "U5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-6770743-1-hls.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "U5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-6764351-1-hls.ts",
+     "url": "U5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-6770744-1-hls.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -287,7 +287,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 2769,
+   "ms": 2780,
    "tries": 1,
    "status": "ok"
   },
@@ -315,7 +315,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 3280,
+   "ms": 2656,
    "tries": 1,
    "status": "ok"
   },
@@ -328,7 +328,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 262,
+   "ms": 2,
    "tries": 2,
    "status": "unverified"
   },
@@ -337,28 +337,13 @@
    "group": "卫视",
    "url": "https://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
    "switched_to": null,
-   "fails": 0,
-   "error": null,
-   "segments": [
-    {
-     "url": "esource-dfl.bestv.cn/material/6b920aedc3acb159165b20284279005a/2026/1012/video/a28e148649eb407c9771ce1a69adbc37-00094.ts",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    },
-    {
-     "url": "esource-dfl.bestv.cn/material/6b920aedc3acb159165b20284279005a/2026/1012/video/a28e148649eb407c9771ce1a69adbc37-00095.ts",
-     "status": 200,
-     "bytes": 65536,
-     "error": null,
-     "ok": true
-    }
-   ],
-   "bytes": 131072,
-   "ms": 5424,
-   "tries": 1,
-   "status": "ok"
+   "fails": 1,
+   "error": "playlist:timeout",
+   "segments": [],
+   "bytes": 0,
+   "ms": 120132,
+   "tries": 2,
+   "status": "degraded"
   },
   {
    "name": "北京卫视",
@@ -369,7 +354,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 240,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -382,7 +367,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 241,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -395,7 +380,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 240,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -408,14 +393,14 @@
    "error": null,
    "segments": [
     {
-     "url": "http://gmxw.7766.org:808/hls/40/18529075243879.ts",
+     "url": "http://gmxw.7766.org:808/hls/40/18567430207240.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "http://gmxw.7766.org:808/hls/40/18529080230891.ts",
+     "url": "http://gmxw.7766.org:808/hls/40/18567435222979.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -423,7 +408,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 6989,
+   "ms": 4001,
    "tries": 1,
    "status": "ok"
   },
@@ -436,7 +421,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 239,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -449,7 +434,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 240,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -462,7 +447,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 244,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -475,7 +460,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 244,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -488,7 +473,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 244,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -497,11 +482,11 @@
    "group": "卫视",
    "url": "http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0",
    "switched_to": null,
-   "fails": 65,
+   "fails": 66,
    "error": "playlist:timeout",
    "segments": [],
    "bytes": 0,
-   "ms": 15009,
+   "ms": 15015,
    "tries": 2,
    "status": "down"
   },
@@ -514,14 +499,14 @@
    "error": null,
    "segments": [
     {
-     "url": "https://event.pull.hebtv.com/live/live101-598480359.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
+     "url": "https://event.pull.hebtv.com/live/live101-598490532.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "https://event.pull.hebtv.com/live/live101-598480360.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
+     "url": "https://event.pull.hebtv.com/live/live101-598490533.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -529,7 +514,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 4381,
+   "ms": 3430,
    "tries": 1,
    "status": "ok"
   },
@@ -542,7 +527,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 15,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -555,7 +540,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 16,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -568,7 +553,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 15,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -581,7 +566,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 252,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -594,7 +579,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 252,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -607,7 +592,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 251,
+   "ms": 1,
    "tries": 2,
    "status": "unverified"
   },
@@ -620,7 +605,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 320,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -633,7 +618,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 320,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -646,7 +631,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 320,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -659,7 +644,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 239,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -672,7 +657,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 240,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -685,7 +670,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 239,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -698,7 +683,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 14,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -711,7 +696,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 14,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -724,14 +709,14 @@
    "error": null,
    "segments": [
     {
-     "url": "https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh/1795453330917.ts?domain=pili-live-hls-zdzz-tv.zzxwcm.cn",
+     "url": "https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh/1795491685572.ts?domain=pili-live-hls-zdzz-tv.zzxwcm.cn",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh/1795453334900.ts?domain=pili-live-hls-zdzz-tv.zzxwcm.cn",
+     "url": "https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh/1795491689570.ts?domain=pili-live-hls-zdzz-tv.zzxwcm.cn",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -739,7 +724,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 5261,
+   "ms": 6783,
    "tries": 1,
    "status": "ok"
   },
@@ -752,7 +737,7 @@
    "error": "vantage:dns-unresolvable",
    "segments": [],
    "bytes": 0,
-   "ms": 13,
+   "ms": 0,
    "tries": 2,
    "status": "unverified"
   },
@@ -761,11 +746,11 @@
    "group": "美国电视",
    "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
    "switched_to": null,
-   "fails": 174,
+   "fails": 175,
    "error": "variant:http-404",
    "segments": [],
    "bytes": 0,
-   "ms": 169,
+   "ms": 92,
    "tries": 2,
    "status": "down"
   },
@@ -774,26 +759,11 @@
    "group": "美国电视",
    "url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8",
    "switched_to": null,
-   "fails": 75,
-   "error": "http-404",
-   "segments": [
-    {
-     "url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/20240429T074721/master_3000/00386/master_3000_09866.ts",
-     "status": 404,
-     "bytes": 0,
-     "error": "http-404",
-     "ok": false
-    },
-    {
-     "url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/20240429T074721/master_3000/00386/master_3000_09867.ts",
-     "status": 404,
-     "bytes": 0,
-     "error": "http-404",
-     "ok": false
-    }
-   ],
+   "fails": 76,
+   "error": "playlist:http-400",
+   "segments": [],
    "bytes": 0,
-   "ms": 334,
+   "ms": 962,
    "tries": 2,
    "status": "down"
   },
@@ -806,14 +776,14 @@
    "error": null,
    "segments": [
     {
-     "url": "https://lgeu-xumoent-nbcnn-hhq2u.fast.nbcuni.com/live/master_5/00620/master_5_00857.ts",
+     "url": "https://lgeu-xumoent-nbcnn-hhq2u.fast.nbcuni.com/live/master_5/00620/master_5_07377.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "https://lgeu-xumoent-nbcnn-hhq2u.fast.nbcuni.com/live/master_5/00620/master_5_00858.ts",
+     "url": "https://lgeu-xumoent-nbcnn-hhq2u.fast.nbcuni.com/live/master_5/00620/master_5_07378.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -821,7 +791,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 476,
+   "ms": 294,
    "tries": 1,
    "status": "ok"
   },
@@ -834,14 +804,14 @@
    "error": null,
    "segments": [
     {
-     "url": "/liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-2/Source-USTV-10000-1-slxdlg-BP-HD-4-86X4McEAF4SL/21765384.ts",
+     "url": "/liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-2/Source-USTV-10000-1-slxdlg-BP-HD-4-86X4McEAF4SL/21769240.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "/liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-2/Source-USTV-10000-1-slxdlg-BP-HD-4-86X4McEAF4SL/21765385.ts",
+     "url": "/liveproduseast.akamaized.net/us/Channel-USTV-AWS-virginia-2/Source-USTV-10000-1-slxdlg-BP-HD-4-86X4McEAF4SL/21769241.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -849,7 +819,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 555,
+   "ms": 300,
    "tries": 1,
    "status": "ok"
   },
@@ -862,14 +832,14 @@
    "error": null,
    "segments": [
     {
-     "url": "https://247wlive.foxweather.com/stream/index_1280x720_170212__10193635.ts",
+     "url": "https://247wlive.foxweather.com/stream/index_1280x720_034128__10203343.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "https://247wlive.foxweather.com/stream/index_1280x720_170216__10193636.ts",
+     "url": "https://247wlive.foxweather.com/stream/index_1280x720_034132__10203344.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -877,7 +847,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 527,
+   "ms": 1353,
    "tries": 1,
    "status": "ok"
   },
@@ -886,11 +856,11 @@
    "group": "孟加拉电视",
    "url": "https://stream.ottplus.live/live/jamuna_tv_abr/index.m3u8",
    "switched_to": null,
-   "fails": 39,
+   "fails": 40,
    "error": "playlist:http-404",
    "segments": [],
    "bytes": 0,
-   "ms": 799,
+   "ms": 757,
    "tries": 2,
    "status": "down"
   },
@@ -903,14 +873,14 @@
    "error": null,
    "segments": [
     {
-     "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/tracks-v1a1/2026/11/23/17/02/01-09602.ts",
+     "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/tracks-v1a1/2026/11/24/03/41/21-09600.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/tracks-v1a1/2026/11/23/17/02/10-09599.ts",
+     "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/tracks-v1a1/2026/11/24/03/41/31-09599.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -918,7 +888,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 4108,
+   "ms": 4495,
    "tries": 1,
    "status": "ok"
   },
@@ -927,11 +897,11 @@
    "group": "孟加拉电视",
    "url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
    "switched_to": null,
-   "fails": 39,
+   "fails": 40,
    "error": "playlist:http-404",
    "segments": [],
    "bytes": 0,
-   "ms": 757,
+   "ms": 736,
    "tries": 2,
    "status": "down"
   },
@@ -944,14 +914,14 @@
    "error": null,
    "segments": [
     {
-     "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est_2_24310263.ts?m=1650059836",
+     "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est_2_24316677.ts?m=1650059836",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est_2_24310264.ts?m=1650059836",
+     "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est_2_24316678.ts?m=1650059836",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -959,7 +929,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 389,
+   "ms": 400,
    "tries": 1,
    "status": "ok"
   },
@@ -972,14 +942,14 @@
    "error": null,
    "segments": [
     {
-     "url": "https://d1eg24xrsfr6kv.cloudfront.net/tg/tg/tg_720_high/00929/tg_720_high_00078.ts",
+     "url": "https://d1eg24xrsfr6kv.cloudfront.net/tg/tg/tg_720_high/00994/tg_720_high_00047.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "https://d1eg24xrsfr6kv.cloudfront.net/tg/tg/tg_720_high/00929/tg_720_high_00079.ts",
+     "url": "https://d1eg24xrsfr6kv.cloudfront.net/tg/tg/tg_720_high/00994/tg_720_high_00048.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -987,7 +957,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 693,
+   "ms": 657,
    "tries": 1,
    "status": "ok"
   },
@@ -1000,14 +970,14 @@
    "error": null,
    "segments": [
     {
-     "url": ".net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL-avc1_2500000=10002-begin=3753829216226667-dur=100000000-seq=37538293.ts",
+     "url": ".net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL-avc1_2500000=10002-begin=3754212716226667-dur=100000000-seq=37542128.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": ".net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL-avc1_2500000=10002-begin=3753829316226667-dur=100000000-seq=37538294.ts",
+     "url": ".net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL-avc1_2500000=10002-begin=3754212816226667-dur=100000000-seq=37542129.ts",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -1015,7 +985,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 1901,
+   "ms": 2406,
    "tries": 1,
    "status": "ok"
   },
@@ -1028,14 +998,14 @@
    "error": null,
    "segments": [
     {
-     "url": "1830.playouts.now.amagi.tv%2F1080p%2Fseg_0925933.ts&seen-ad=1&seg_id=925933&user_id=a7d2eff1-e75f-11f1-b918-2e18a191f4b1",
+     "url": "1830.playouts.now.amagi.tv%2F1080p%2Fseg_0932392.ts&seen-ad=1&seg_id=932392&user_id=f4bf2e48-e7b8-11f1-87c3-5a31d2e4afe8",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "1830.playouts.now.amagi.tv%2F1080p%2Fseg_0925934.ts&seen-ad=1&seg_id=925934&user_id=a7d2eff1-e75f-11f1-b918-2e18a191f4b1",
+     "url": "1830.playouts.now.amagi.tv%2F1080p%2Fseg_0932393.ts&seen-ad=1&seg_id=932393&user_id=f4bf2e48-e7b8-11f1-87c3-5a31d2e4afe8",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -1043,7 +1013,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 934,
+   "ms": 1388,
    "tries": 1,
    "status": "ok"
   },
@@ -1056,14 +1026,14 @@
    "error": null,
    "segments": [
     {
-     "url": "opkids-lggb-xyy5k.amagi.tv%2F1080p%2Fseg_0924318.ts&seen-ad=1&seg_id=924318&user_id=a811a191-e75f-11f1-ae9d-7ea594655e08",
+     "url": "opkids-lggb-xyy5k.amagi.tv%2F1080p%2Fseg_0930760.ts&seen-ad=1&seg_id=930760&user_id=f4fef5f8-e7b8-11f1-bba4-467ca6863084",
      "status": 200,
      "bytes": 65536,
      "error": null,
      "ok": true
     },
     {
-     "url": "opkids-lggb-xyy5k.amagi.tv%2F1080p%2Fseg_0924319.ts&seen-ad=1&seg_id=924319&user_id=a811a191-e75f-11f1-ae9d-7ea594655e08",
+     "url": "opkids-lggb-xyy5k.amagi.tv%2F1080p%2Fseg_0930761.ts&seen-ad=1&seg_id=930761&user_id=f4fef5f8-e7b8-11f1-bba4-467ca6863084",
      "status": 200,
      "bytes": 65536,
      "error": null,
@@ -1071,7 +1041,7 @@
     }
    ],
    "bytes": 131072,
-   "ms": 2123,
+   "ms": 1461,
    "tries": 1,
    "status": "ok"
   }
@@ -1082,7 +1052,7 @@
    "name": "魔都资源",
    "fails": 0,
    "error": null,
-   "ms": 1316,
+   "ms": 1531,
    "note": "list=3 media=m3u8",
    "tries": 1,
    "status": "ok"
@@ -1092,7 +1062,7 @@
    "name": "360资源",
    "fails": 0,
    "error": null,
-   "ms": 2631,
+   "ms": 2562,
    "note": "list=3 media=m3u8",
    "tries": 1,
    "status": "ok"
@@ -1100,9 +1070,9 @@
   {
    "key": "baidu",
    "name": "百度资源",
-   "fails": 8,
+   "fails": 9,
    "error": "media:http-403",
-   "ms": 2572,
+   "ms": 2112,
    "note": "",
    "tries": 2,
    "status": "demoted"
@@ -1110,9 +1080,9 @@
   {
    "key": "zuid",
    "name": "最大资源",
-   "fails": 41,
+   "fails": 42,
    "error": "media:http-403",
-   "ms": 1517,
+   "ms": 175,
    "note": "",
    "tries": 2,
    "status": "demoted"
@@ -1120,9 +1090,9 @@
   {
    "key": "wujin",
    "name": "无尽资源",
-   "fails": 41,
+   "fails": 42,
    "error": "media:http-403",
-   "ms": 1740,
+   "ms": 160,
    "note": "",
    "tries": 2,
    "status": "demoted"
@@ -1130,9 +1100,9 @@
   {
    "key": "maoyan",
    "name": "猫眼资源",
-   "fails": 19,
+   "fails": 20,
    "error": "media:dns",
-   "ms": 854,
+   "ms": 1136,
    "note": "",
    "tries": 2,
    "status": "demoted"
@@ -1140,9 +1110,9 @@
   {
    "key": "piaoling",
    "name": "飘零资源",
-   "fails": 76,
+   "fails": 77,
    "error": "api:http-403",
-   "ms": 278,
+   "ms": 69,
    "note": "",
    "tries": 2,
    "status": "demoted"
@@ -1150,9 +1120,9 @@
   {
    "key": "bfzy",
    "name": "暴风资源",
-   "fails": 8,
+   "fails": 9,
    "error": "media:http-404",
-   "ms": 1652,
+   "ms": 590,
    "note": "",
    "tries": 2,
    "status": "demoted"
@@ -1161,18 +1131,18 @@
    "key": "liangzi",
    "name": "量子资源",
    "fails": 8,
-   "error": "media:http-404",
-   "ms": 2329,
-   "note": "",
-   "tries": 2,
-   "status": "demoted"
+   "error": null,
+   "ms": 3234,
+   "note": "list=20 media=other",
+   "tries": 1,
+   "status": "ok"
   },
   {
    "key": "ddys",
    "name": "低端影视",
    "fails": 0,
    "error": null,
-   "ms": 812,
+   "ms": 298,
    "note": "spider.js 9155B",
    "tries": 1,
    "status": "ok"
